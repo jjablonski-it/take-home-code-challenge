@@ -13,7 +13,7 @@ job of this app is to gather the event data, and present a summary to the user.
 
 For this challenge you *don't* have to access the service via HTTP. We've provided a stub API client - details below.
 
-## The API
+### The API
 
 `getCalendarEvents` is the only function in the API. You specify the day by passing a date. It returns a promise that
 resolves to an array of `CalendarEvent` objects.
@@ -60,9 +60,6 @@ You may install additional npm packages if you need to.
 
 - The app needs to start.
 - The app needs to display the data, as described above.
-- Using typescript is **highly** encouraged.
 - Make the code as clean and as readable as you can.
-- Format your code consistently.
-- Clone this repository and commit your code to the clone.
 
-### Good luck and have fun!
+### Good luck!
