@@ -4,8 +4,7 @@ import CalendarSummary from './CalendarSummary';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
+    <div className="App" style={{ maxWidth: '1000px', margin: 'auto' }}>
       <CalendarSummary />
     </div>
   );
